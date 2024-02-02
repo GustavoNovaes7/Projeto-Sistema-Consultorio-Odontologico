@@ -1,0 +1,1170 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="SICODON"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="eb" green="eb" red="ef" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblImagem1_1" alignment="0" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lblImagem1_2" min="-2" pref="676" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblCadastroPaciente" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="lblAnotacoes" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane1" min="-2" pref="477" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="lblTipo" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="rdbtnAdulto" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="rdbtnInfantil" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="78" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="15" pref="15" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="rbtnDente38" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                                          <Component id="rbtnDente37" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="lblDente37" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="lblDente36" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbtnDente36" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="lblDente35" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbtnDente35" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="rbtnDente34" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblDente34" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="rbtnDente33" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblDente33" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="rbtnDente32" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="rbtnDente31" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="lblDente32" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                          <Component id="lblDente31" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="248" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                                          <Component id="lblDente38" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="-2" pref="335" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <Component id="rbtnDente41" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                  <Component id="rbtnDente42" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                                                  <Component id="rbtnDente43" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                                  <Component id="lblDente41" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Component id="lblDente42" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Component id="lblDente43" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="lblDente44" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                                  <Component id="lblDente45" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="rbtnDente44" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Component id="rbtnDente45" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="rbtnDente46" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblDente46" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="rbtnDente47" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblDente47" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="lblDente48" min="-2" max="-2" attributes="0"/>
+                                              <Component id="rbtnDente48" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="rbtnDente28" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblDente28" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="rbtnDente27" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblDente27" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="rbtnDente26" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblDente26" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="rbtnDente25" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblDente25" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="rbtnDente24" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblDente24" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="rbtnDente23" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblDente23" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="rbtnDente22" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblDente22" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="lblDente21" min="-2" max="-2" attributes="0"/>
+                                              <Component id="rbtnDente21" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="rbtnDente11" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblDente11" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="rbtnDente12" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblDente12" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="lblDente13" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                                                  <Component id="lblDente14" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="rbtnDente13" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Component id="rbtnDente14" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="lblDente15" min="-2" max="-2" attributes="0"/>
+                                              <Component id="rbtnDente15" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="rbtnDente16" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblDente16" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="rbtnDente17" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblDente17" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="lblDente18" min="-2" max="-2" attributes="0"/>
+                                              <Component id="rbtnDente18" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="124" max="-2" attributes="0"/>
+                  <Component id="lblImagem2_1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="btnSalvar" min="-2" pref="223" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                          <Component id="btnCancelar" min="-2" pref="223" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="lblImagem2_2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="127" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lblDente75" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbtnDente75" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="rbtnDente65" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblDente65" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lblDente64" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbtnDente64" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbtnDente74" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblDente74" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="lblDente63" min="-2" max="-2" attributes="0"/>
+                                              <Component id="rbtnDente63" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="lblDente62" min="-2" max="-2" attributes="0"/>
+                                              <Component id="rbtnDente62" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="rbtnDente73" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblDente73" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="lblDente72" min="-2" max="-2" attributes="0"/>
+                                              <Component id="rbtnDente72" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="lblDente61" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="32767" attributes="0"/>
+                                                  <Component id="lblDente51" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="rbtnDente61" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                                  <Component id="rbtnDente51" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="rbtnDente52" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblDente52" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="rbtnDente53" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblDente53" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="rbtnDente54" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblDente54" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="lblDente55" min="-2" max="-2" attributes="0"/>
+                                              <Component id="rbtnDente55" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="rbtnDente71" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblDente71" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="lblDente81" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="rbtnDente81" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="rbtnDente82" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblDente82" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="rbtnDente83" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblDente83" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="rbtnDente84" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblDente84" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="rbtnDente85" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblDente85" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="139" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="lblCadastroPaciente" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblTipo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="rdbtnAdulto" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="rdbtnInfantil" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="lblImagem1_1" min="-2" pref="93" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="rbtnDente28" min="-2" max="-2" attributes="0"/>
+                      <Component id="rbtnDente27" min="-2" max="-2" attributes="0"/>
+                      <Component id="rbtnDente26" min="-2" max="-2" attributes="0"/>
+                      <Component id="rbtnDente24" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="rbtnDente23" min="-2" max="-2" attributes="0"/>
+                      <Component id="rbtnDente22" min="-2" max="-2" attributes="0"/>
+                      <Component id="rbtnDente21" min="-2" max="-2" attributes="0"/>
+                      <Component id="rbtnDente11" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="rbtnDente12" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="rbtnDente13" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="rbtnDente15" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="rbtnDente16" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="rbtnDente17" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="rbtnDente18" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="rbtnDente14" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="rbtnDente25" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblDente16" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblDente18" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblDente21" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblDente14" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="lblDente11" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblDente12" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblDente13" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblDente15" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblDente17" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="lblDente28" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="lblDente22" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblDente23" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblDente24" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblDente25" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblDente26" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblDente27" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="134" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblDente38" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblDente36" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblDente31" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblDente37" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblDente32" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblDente33" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblDente34" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblDente35" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="rbtnDente38" alignment="0" max="32767" attributes="0"/>
+                              <Component id="rbtnDente37" alignment="0" max="32767" attributes="0"/>
+                              <Component id="rbtnDente36" alignment="0" max="32767" attributes="0"/>
+                              <Component id="rbtnDente34" alignment="0" max="32767" attributes="0"/>
+                              <Component id="rbtnDente33" alignment="0" max="32767" attributes="0"/>
+                              <Component id="rbtnDente32" alignment="0" max="32767" attributes="0"/>
+                              <Component id="rbtnDente31" alignment="0" max="32767" attributes="0"/>
+                              <Component id="rbtnDente35" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                                  <Component id="lblDente47" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblDente48" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="lblDente43" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="lblDente42" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblDente41" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblDente44" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblDente45" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblDente46" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="rbtnDente41" alignment="0" max="32767" attributes="0"/>
+                              <Component id="rbtnDente42" alignment="0" max="32767" attributes="0"/>
+                              <Component id="rbtnDente43" alignment="0" max="32767" attributes="0"/>
+                              <Component id="rbtnDente47" alignment="0" max="32767" attributes="0"/>
+                              <Component id="rbtnDente48" alignment="0" max="32767" attributes="0"/>
+                              <Component id="rbtnDente44" alignment="0" max="32767" attributes="0"/>
+                              <Component id="rbtnDente46" alignment="0" max="32767" attributes="0"/>
+                              <Component id="rbtnDente45" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Component id="lblImagem1_2" min="-2" pref="93" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                  <Component id="lblImagem2_1" min="-2" pref="93" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="rbtnDente64" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="rbtnDente62" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="rbtnDente61" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="rbtnDente65" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="rbtnDente51" min="-2" max="-2" attributes="0"/>
+                                  <Component id="rbtnDente52" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblDente51" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                      <Component id="lblDente61" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblDente62" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="lblDente64" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblDente65" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="rbtnDente63" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblDente63" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="rbtnDente54" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="rbtnDente55" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblDente55" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblDente54" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="rbtnDente53" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="17" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblDente53" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblDente52" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblDente72" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblDente71" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="17" max="32767" attributes="0"/>
+                          <Component id="rbtnDente72" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblDente73" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblDente74" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="rbtnDente73" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="lblDente81" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblDente82" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblDente83" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblDente84" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblDente85" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="rbtnDente81" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbtnDente82" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbtnDente83" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbtnDente84" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbtnDente85" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Component id="rbtnDente71" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="lblDente75" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="rbtnDente75" min="-2" max="-2" attributes="0"/>
+                              <Component id="rbtnDente74" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                  <Component id="lblImagem2_2" min="-2" pref="93" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jScrollPane1" alignment="0" min="-2" pref="102" max="-2" attributes="0"/>
+                      <Component id="lblAnotacoes" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btnCancelar" alignment="3" min="-2" pref="69" max="-2" attributes="0"/>
+                      <Component id="btnSalvar" alignment="3" min="-2" pref="69" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblCadastroPaciente">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="24" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Odontograma"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCancelar">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="70" green="30" red="1e" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="35" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagens/xis_.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Cancelar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCancelarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblAnotacoes">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="26" style="0"/>
+            </Property>
+            <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="txtAnotacoes"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Anota&#xe7;&#xf5;es:"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="txtAnotacoes">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="c7" green="c7" red="c7" type="rgb"/>
+                </Property>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="20" style="0"/>
+                </Property>
+                <Property name="rows" type="int" value="5"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="lblTipo">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="26" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Tipo:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rdbtnAdulto">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="20" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Adulto"/>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="rdbtnAdultoStateChanged"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rdbtnAdultoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rdbtnInfantil">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="20" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Infantil"/>
+          </Properties>
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="rdbtnInfantilStateChanged"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rdbtnInfantilActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnSalvar">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="70" green="30" red="1e" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="35" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagens/salvar_.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Salvar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSalvarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente28">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente27">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente26">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente25">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente24">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente23">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente22">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente21">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente14">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente15">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente16">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente17">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente18">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente11">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente12">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente13">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente35">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente34">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente33">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente32">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente31">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente44">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente45">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente47">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente38">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente37">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente36">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente41">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente42">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente43">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente46">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtnDente46ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente48">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblImagem1_2">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagens/Odontograma1_2.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblImagem1_1">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagens/Odontograma1_1.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente11">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="11"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente12">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="12"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente13">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="13"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente14">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="14"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente15">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="15"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente16">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="16"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente17">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="17"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente18">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="18"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente21">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="21"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente22">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="22"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente23">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="23"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente24">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="24"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente25">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="25"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente26">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="26"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente27">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="27"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente28">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="28"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente36">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="36"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente37">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="37"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente38">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="38"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente31">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="31"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente32">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="32"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente33">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="33"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente34">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="34"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente35">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="35"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente43">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="43"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente42">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="42"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente41">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="41"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente44">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="44"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente45">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="45"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente46">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="46"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente47">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="47"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente48">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="48"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblImagem2_1">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagens/Odontograma2_1.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblImagem2_2">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagens/Odontograma2_2.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente61">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="61"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente62">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="62"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente65">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente63">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="63"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente64">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="64"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente65">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="65"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente64">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente63">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtnDente63ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente62">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente61">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente51">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente51">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="51"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente52">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente53">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente54">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtnDente54ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente55">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtnDente55ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente52">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="52"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente53">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="53"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente54">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="54"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente55">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="55"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente71">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente71">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="71"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente72">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente73">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente74">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente75">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente72">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="72"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente73">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="73"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente74">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="74"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente75">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="75"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente81">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente81">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="81"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente82">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente83">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente84">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnDente85">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente82">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="82"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente83">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="83"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente84">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="84"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDente85">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="85"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
