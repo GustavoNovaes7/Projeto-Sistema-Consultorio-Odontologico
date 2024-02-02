@@ -105,4 +105,5 @@ aos seus próprios recursos.
 
 
 ## Demonstração do Sistema
-[![Vídeo de demonstração](/etapa5-Projeto-Integrador-UC15/src/videos/video-projeto-java-swing.mp4)]
+https://github.com/GustavoNovaes7/Projeto-Sistema-Consultorio-Odontologico/assets/99483701/e80d59f9-542b-470c-b743-24cd9709413c
+
